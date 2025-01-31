@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script defer src="script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Movie Detail</h1>
+    <p id="movieTitle"></p>
+    <p id="movieDirector"></p>
+    <p id="movieReleaseDate"></p>
+    <p id="movieGenre"></p>
+    <p id="movieRating"></p>
+
+    <div id="movieContainer">
+      <input id="movieInput" type="text" minlength="3" maxlength="20" placeholder="Enter Movie" />
+
+      <button id="updateMovieButton" type="submit">Update</button>
+    </div>
+    <br />
+
+    <div id="directorContainer">
+      <input id="directorInput" type="text" minlength="3" maxlength="20" placeholder="Enter Director" />
+
+      <button id="updateDirectorButton" type="submit">Update</button>
+    </div>
+    <br />
+
+    <div id="releaseDateContainer">
+      <input
+        id="releaseDateInput"
+        type="date"
+        placeholder="Enter Release Date"
+      />
+
+      <button id="updateReleaseDateButton" type="submit">Update</button>
+    </div>
+    <br />
+
+    <div id="genreContainer">
+      <input id="genreInput" type="text" minlength="3" maxlength="20" placeholder="Enter Genre" />
+
+      <button id="updateGenreButton" type="submit">Update</button>
+    </div>
+    <br />
+
+    <div id="ratingContainer">
+      <input id="ratingInput" type="text" placeholder="Enter Rating" />
+
+      <button id="updateRatingButton" type="submit">Update</button>
+    </div>
+    <br />
+  </body>
+</html>
